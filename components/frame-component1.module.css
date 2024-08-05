@@ -1,0 +1,257 @@
+.frameChild {
+  width: 1440px;
+  height: 450px;
+  position: relative;
+  background-color: var(--assignment-1-white);
+  display: none;
+  max-width: 100%;
+}
+.clientTestimonial {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.testimonialHeader {
+  width: 1092px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.zoomIn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.ioarrowbacksharpIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.zoomControls {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  opacity: 0.4;
+  z-index: 1;
+}
+.clientDetails {
+  height: 100px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.daburHealthcareCompanyDubaiIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.clientLogo {
+  height: 179px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.div {
+  height: 114px;
+  width: 177.2px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -63px;
+  left: 89px;
+  display: inline-block;
+  z-index: 1;
+}
+.theLaunchwiseTeam {
+  margin: 0;
+}
+.theLaunchwiseTeamContainer {
+  flex: 1;
+  position: relative;
+  font-size: var(--h5-size);
+  font-family: var(--paragraph);
+  color: var(--color-black);
+  display: inline-block;
+  min-height: 120px;
+  max-width: 100%;
+  z-index: 2;
+}
+.quoteContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.socialLinks {
+  width: 14px;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.authorDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.sunilDuggalCeo {
+  height: 11px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.authorInfo,
+.quoteBlock,
+.quoteBlockWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.authorInfo {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--h5-size);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}
+.quoteBlock,
+.quoteBlockWrapper {
+  flex-direction: column;
+}
+.quoteBlock {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.quoteBlockWrapper {
+  width: 562px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) var(--padding-11xl) 0;
+  box-sizing: border-box;
+}
+.clientDetailsChild {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  z-index: 1;
+}
+.clientDetails1 {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  font-size: var(--font-size-443xl-2);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-monda);
+}
+.easySetupInner,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--assignment-1-white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-49xl) var(--padding-xl) var(--padding-71xl);
+  gap: var(--gap-53xl);
+  z-index: 1;
+}
+.easySetupInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1200px) {
+  .testimonialDetails {
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .clientTestimonial {
+    font-size: var(--font-size-7xl);
+  }
+  .div {
+    font-size: var(--font-size-166xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .testimonialDetails {
+    gap: var(--gap-base);
+  }
+  .rectangleParent {
+    gap: var(--gap-lg);
+  }
+  .easySetupInner {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .clientTestimonial {
+    font-size: var(--font-size-lgi);
+  }
+  .div {
+    font-size: var(--font-size-97xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}

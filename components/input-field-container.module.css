@@ -1,0 +1,92 @@
+.label {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 45px;
+}
+.content {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 22px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--paragraph);
+  font-size: var(--font-size-smi-7);
+  color: var(--gray-500);
+  min-width: 235px;
+  max-width: 100%;
+}
+.helpIcon {
+  height: 14.5px;
+  width: 14.5px;
+  position: relative;
+  display: none;
+}
+.input,
+.inputWithLabel {
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  width: 421px;
+  box-shadow: 0 0.9px 1.82px rgba(16, 24, 40, 0.05);
+  border-radius: 7.26px;
+  background-color: var(--assignment-1-white);
+  border: 0.9px solid var(--gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-4xs) var(--padding-smi) var(--padding-4xs)
+    var(--padding-sm);
+  gap: var(--gap-5xs-3);
+  max-width: 208%;
+  flex-shrink: 0;
+}
+.inputWithLabel {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-7xs-4);
+}
+.hintText {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  line-height: 18.15px;
+  font-family: var(--font-inter);
+  color: var(--gray-500);
+  display: none;
+}
+.inputFieldBase {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs-4);
+}
+.inputField,
+.inputFieldBase,
+.inputFieldContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField {
+  flex: 1;
+  flex-direction: column;
+}
+.inputFieldContainer {
+  width: 223.3px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini-5);
+  color: var(--gray-700);
+  font-family: var(--paragraph);
+}

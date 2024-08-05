@@ -1,0 +1,295 @@
+.maskGroupIcon {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.maskGroupWrapper {
+  width: 67px;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-silver-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.consultationAndCompany {
+  font-weight: 600;
+}
+.nullaLobortisNuncContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 31.77px;
+  display: inline-block;
+  min-width: 327px;
+  max-width: 100%;
+  font-family: inherit;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.bookAFree {
+  margin: 0;
+}
+.bookAFreeContainer {
+  margin: 0;
+  width: 572px;
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text-color);
+  display: inline-block;
+  max-width: 100%;
+}
+.contactImage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.talkToAn {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 160.23%;
+  font-family: var(--paragraph);
+  color: var(--assignment-1-white);
+  text-align: left;
+}
+.pageIndicator {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-51xl);
+  background-color: var(--color-orange);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.pageIndicator:hover {
+  background-color: var(--color-chocolate);
+}
+.consultationContent,
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactInfo {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+}
+.consultationContent {
+  flex: 1;
+  padding: 0 0 var(--padding-27xl);
+  box-sizing: border-box;
+  min-width: 381px;
+  min-height: 317px;
+}
+.emailInputIcon,
+.frameChild {
+  position: relative;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild {
+  align-self: stretch;
+  height: 475px;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.emailInputIcon {
+  height: 354px;
+  flex: 1;
+  z-index: 2;
+}
+.emailInputWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameInner,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+}
+.frameItem {
+  height: 167px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--text-color);
+  display: none;
+}
+.frameInner {
+  height: 1px;
+  border-top: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.needOurHelp {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160.23%;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.needOurHelpWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.rectangleGroup,
+.rectangleParent {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  align-self: stretch;
+  background-color: var(--text-color);
+  padding: var(--padding-27xl) 0 var(--padding-13xl);
+  gap: var(--gap-18xl);
+  z-index: 1;
+  margin-top: -46px;
+}
+.rectangleParent {
+  width: 475px;
+  background-image: url(/rectangle-3234@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 475px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+  color: var(--assignment-1-white);
+}
+.consultation,
+.expertButton {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.expertButton {
+  flex: 1;
+  background-color: var(--assignment-1-white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-151xl);
+  gap: var(--gap-21xl);
+}
+.consultation {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-31xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-200);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    flex: 1;
+  }
+  .expertButton {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nullaLobortisNuncContainer {
+    font-size: var(--h3-size);
+    line-height: 25px;
+  }
+  .needOurHelp {
+    font-size: var(--font-size-7xl);
+    line-height: 41px;
+  }
+  .rectangleParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .contactImage {
+    gap: var(--gap-xl);
+  }
+  .contactInfo {
+    gap: var(--gap-11xl);
+  }
+  .consultationContent {
+    min-width: 100%;
+  }
+  .rectangleGroup {
+    gap: var(--gap-lg);
+  }
+  .expertButton {
+    gap: var(--gap-xl);
+    padding: var(--padding-xl) var(--padding-66xl);
+    box-sizing: border-box;
+  }
+  .consultation {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nullaLobortisNuncContainer {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .bookAFreeContainer {
+    font-size: var(--font-size-mid);
+  }
+  .pageIndicator {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .needOurHelp {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .expertButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

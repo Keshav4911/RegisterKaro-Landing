@@ -1,0 +1,312 @@
+.heroCover3Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -91px;
+  max-height: 100%;
+  width: 1622px;
+  object-fit: cover;
+}
+.headerLogo884459461Icon {
+  position: absolute;
+  top: 16px;
+  left: 199px;
+  width: 124px;
+  height: 89px;
+  overflow: hidden;
+  z-index: 2;
+}
+.btnText {
+  position: relative;
+  font-size: var(--paragraph-size);
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--paragraph);
+  color: var(--assignment-1-white);
+  text-align: left;
+  min-width: 96px;
+}
+.icnArrowRightIcnXs {
+  height: 10px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonbtnprimaryColor {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-6xl);
+  background-color: var(--color-deepskyblue);
+  position: absolute;
+  top: 34.5px;
+  left: 1250px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  white-space: nowrap;
+  z-index: 2;
+}
+.buttonbtnprimaryColor:hover {
+  background-color: var(--color-steelblue);
+}
+.workFromAnywhere {
+  margin: 0;
+}
+.h1Headline7 {
+  margin: 0;
+  position: absolute;
+  top: 313px;
+  left: 199px;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 622px;
+  z-index: 2;
+}
+.label {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 50px;
+}
+.content {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 22px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--paragraph);
+  font-size: var(--font-size-smi-7);
+  color: var(--gray-500);
+  min-width: 235px;
+  max-width: 100%;
+}
+.helpIcon {
+  height: 14.5px;
+  width: 14.5px;
+  position: relative;
+  display: none;
+}
+.input,
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input {
+  box-shadow: 0 0.9px 1.82px rgba(16, 24, 40, 0.05);
+  border-radius: 7.26px;
+  background-color: var(--assignment-1-white);
+  border: 0.9px solid var(--gray-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-4xs) var(--padding-smi) var(--padding-4xs)
+    var(--padding-sm);
+  gap: var(--gap-5xs-3);
+}
+.inputWithLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-7xs-4);
+}
+.hintText {
+  width: 290.4px;
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  line-height: 18.15px;
+  font-family: var(--font-inter);
+  color: var(--gray-500);
+  display: none;
+}
+.inputFieldBase {
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xs-4);
+}
+.inputField,
+.inputFieldBase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.label1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 42px;
+}
+.inputFieldWrapper,
+.inputWithLabel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputWithLabel1 {
+  align-self: stretch;
+  gap: var(--gap-7xs-4);
+}
+.inputFieldWrapper {
+  position: absolute;
+  top: 138px;
+  left: 30px;
+  width: 422px;
+  gap: var(--gap-lg);
+  text-align: left;
+}
+.heading {
+  position: absolute;
+  top: 25px;
+  left: 130.1px;
+  font-size: var(--font-size-2xl-8);
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  color: var(--gray-900);
+}
+.allInclusive {
+  font-weight: 600;
+}
+.allInclusive,
+.free {
+  color: var(--color-darkorange);
+}
+.supportingText {
+  position: absolute;
+  top: 73px;
+  left: 23px;
+  display: inline-block;
+  width: 435.6px;
+  color: var(--gray-500);
+}
+.text {
+  position: relative;
+  font-size: var(--font-size-mini-5);
+  line-height: 29px;
+  font-family: var(--paragraph);
+  color: var(--assignment-1-white);
+  text-align: left;
+}
+.button,
+.buttonBase {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.buttonBase {
+  flex: 1;
+  box-shadow: 0 0.9px 1.82px rgba(16, 24, 40, 0.05);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkblue);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-9) var(--padding-xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.button {
+  align-self: stretch;
+  border-radius: 7.26px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actions,
+.inputFields {
+  position: absolute;
+  max-width: 100%;
+}
+.actions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 506px;
+  left: 23px;
+  width: 435.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFields {
+  top: 164px;
+  left: 942px;
+  background-color: var(--assignment-1-white);
+  width: 481px;
+  height: 589px;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-mini-5);
+  color: var(--gray-700);
+}
+.filter {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -91px;
+  background-color: var(--color-gray-100);
+  width: 1622px;
+  overflow: hidden;
+  z-index: 1;
+}
+.headerContent {
+  height: 998px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.background {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--assignment-1-white);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1050px) {
+  .h1Headline7 {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1Headline7 {
+    font-size: var(--font-size-10xl);
+  }
+  .heading {
+    font-size: var(--font-size-mid);
+    line-height: 32px;
+  }
+}

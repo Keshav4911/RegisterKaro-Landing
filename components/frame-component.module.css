@@ -1,0 +1,121 @@
+.icnResizeIcnMd {
+  width: 48px;
+  height: 39.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h3FeatureTitle1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.paragraph {
+  width: 239px;
+  position: relative;
+  font-size: var(--paragraph-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--second-text-color);
+  display: inline-block;
+}
+.cardItem,
+.colMd4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardItem {
+  align-self: stretch;
+  box-shadow: var(--accentued-drop-shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--assignment-1-white);
+  overflow: hidden;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.colMd4 {
+  flex: 1;
+  min-width: 247px;
+  max-width: 100%;
+}
+.paragraph1,
+.paragraph2 {
+  position: relative;
+  font-size: var(--paragraph-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.paragraph1 {
+  align-self: stretch;
+  color: var(--second-text-color);
+}
+.paragraph2 {
+  width: 235px;
+  display: inline-block;
+}
+.cardItem2 {
+  align-self: stretch;
+  box-shadow: var(--accentued-drop-shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--color-deepskyblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.colMd42,
+.row,
+.rowWrapper {
+  display: flex;
+  max-width: 100%;
+}
+.colMd42 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 247px;
+  color: var(--assignment-1-white);
+}
+.row,
+.rowWrapper {
+  flex-direction: row;
+}
+.row {
+  width: 1046px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  z-index: 2;
+}
+.rowWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text-color);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 450px) {
+  .h3FeatureTitle1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

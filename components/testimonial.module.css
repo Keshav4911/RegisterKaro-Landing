@@ -1,0 +1,297 @@
+.testimonialHeading {
+  width: 545.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-18xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonialQuoteChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.testimonialQuote {
+  height: 495.2px;
+  width: 491px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-2) 0 0;
+  box-sizing: border-box;
+  min-width: 491px;
+  max-width: 100%;
+}
+.whetherYoureAn {
+  margin: 0;
+}
+.vestibulumSitAmetContainer {
+  width: 480.3px;
+  position: relative;
+  line-height: 18.15px;
+  display: inline-block;
+  min-height: 91px;
+  max-width: 100%;
+}
+.shapeIcon {
+  height: 18.2px;
+  width: 18.2px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.testimonialTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.nullaLobortisNunc {
+  align-self: stretch;
+  position: relative;
+  line-height: 31.77px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.contentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-3);
+  font-size: var(--font-size-2xl-2);
+  color: var(--color-gray-200);
+}
+.interdumEtMalesuad {
+  flex: 1;
+  position: relative;
+  line-height: 18.15px;
+}
+.interdumEtMalesuadWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl-5);
+}
+.itemTitle {
+  height: 25.7px;
+  width: 25.7px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3.07px;
+  left: 8.9px;
+  border-radius: 4.54px;
+  background-color: var(--color-lavender);
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+.groupIcon {
+  height: 12.9px;
+  width: 18.1px;
+  position: relative;
+  z-index: 1;
+}
+.innerShape,
+.testimonialContent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.innerShape {
+  flex-direction: row;
+  position: relative;
+}
+.testimonialContent1 {
+  width: 220.1px;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.interdumEtMalesuad1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 18.15px;
+}
+.companyLogo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl-4);
+  min-width: 148px;
+}
+.shapeIcon1 {
+  width: 18.2px;
+  height: 18.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 9.8px;
+  z-index: 0;
+}
+.nullaLobortisNunc1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 31.77px;
+  font-weight: 500;
+  z-index: 1;
+}
+.interdumEtMalesuad2 {
+  width: 215.6px;
+  position: relative;
+  font-size: var(--font-size-smi-1);
+  line-height: 18.15px;
+  color: var(--color-dimgray-300);
+  display: inline-block;
+  z-index: 2;
+}
+.fAQContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl-7) 0 var(--padding-19xl-3);
+  position: relative;
+  gap: var(--gap-8xs-9);
+}
+.shapeIcon2 {
+  height: 18.2px;
+  width: 18.2px;
+  position: relative;
+  flex-shrink: 0;
+}
+.fAQLink {
+  width: 215.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm-7);
+}
+.interdumEtMalesuad3 {
+  width: 215.6px;
+  position: relative;
+  font-size: var(--font-size-smi-1);
+  line-height: 18.15px;
+  color: var(--color-dimgray-300);
+  display: inline-block;
+  z-index: 1;
+}
+.featureBlock,
+.testimonialCompany {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featureBlock {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-17xl-6);
+  min-width: 152px;
+  font-size: var(--font-size-2xl-2);
+  color: var(--color-gray-200);
+}
+.testimonialCompany {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-27xl-9);
+  font-size: var(--font-size-smi-1);
+  color: var(--color-dimgray-300);
+}
+.testimonialDetails {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24xl-7);
+  min-width: 330px;
+}
+.benefitOneContent,
+.testimonialContent,
+.testimonialDetails {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.benefitOneContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-88xl-8);
+}
+.testimonialContent {
+  width: 1107.1px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-smi-3);
+}
+.testimonial {
+  width: 1420px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-31xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-200);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1200px) {
+  .benefitOneContent {
+    gap: var(--gap-35xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .testimonialQuoteChild {
+    align-self: stretch;
+    width: auto;
+  }
+  .testimonialQuote {
+    flex: 1;
+  }
+  .benefitOneContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .testimonialQuote {
+    min-width: 100%;
+  }
+  .testimonialCompany {
+    gap: var(--gap-4xl);
+  }
+  .testimonialDetails {
+    gap: var(--gap-3xl);
+  }
+  .benefitOneContent {
+    gap: var(--gap-8xl);
+  }
+  .testimonial {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nullaLobortisNunc,
+  .nullaLobortisNunc1 {
+    font-size: var(--font-size-mid);
+    line-height: 25px;
+  }
+  .testimonialCompany {
+    flex-wrap: wrap;
+  }
+}
